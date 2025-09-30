@@ -12,9 +12,6 @@ resource "aws_instance" "TV" {
   }
 }
 
-resource "aws_eip" "static_ip" {
-  instance = aws_instance.TV.id
-}
 
 
 
