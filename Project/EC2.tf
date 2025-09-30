@@ -8,7 +8,7 @@ resource "aws_instance" "TV" {
 
 
   tags = {
-    Name = "Channel"
+    Name = "Channel123"
   }
 }
 
